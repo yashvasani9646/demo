@@ -2,8 +2,9 @@ import React, { useState } from 'react'
 
 const Calculater = () => {
 
-    
+
     const [count, setCount] = useState(0)
+console.log("count",count);
 
     const handleIncrease = () => {
         setCount(count + 1)
